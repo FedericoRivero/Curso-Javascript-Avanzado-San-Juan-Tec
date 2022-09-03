@@ -53,6 +53,20 @@ const db = {
       precio: 458809,
       cantidad: 7,
     },
+    {
+      id: 5,
+      titulo: "Sin Imagen",
+      imagen: "",
+      precio: 0000,
+      cantidad: 0,
+    },
+    {
+      id: 6,
+      titulo: "Sin Imagen",
+      imagen: "",
+      precio: 0000,
+      cantidad: 0,
+    },
   ],
 };
 
@@ -141,7 +155,7 @@ function mostrarTienda() {
 
             <div >
                 <img class="imagen" src="${
-                  item.imagen ? item.imagen : "../assets/guitar.png"
+                  item.imagen ? item.imagen : "../assets/no-image.jpg"
                 }" alt="${item.titulo}">
             </div>
             <div class="titulo">
